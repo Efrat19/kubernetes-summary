@@ -1,0 +1,30 @@
+  495  git commit -a -m "dependence"
+  496  git push
+  497  GIT STATUS
+  498  git status
+  499  git pull
+  500  minikube start
+  501  minikube start
+  502  minikube start
+  503   minikube start --vm-driver=virtualbox
+  504  minikube stop
+  505  minikube delete
+  506  minikube start
+  507  kubectl
+  508  kubectl get pod
+  509  kubectl run hello-world --image=gcr.io/google_containers/echoserver:1.4 --port=5000
+  510  kubectl get pod
+  511  kubectl expose deployment hello-world --type=NodPort
+  512  kubectl expose deployment hello-world --type=NodePort
+  513  minikube service hello-world --url
+  514  kubectl run hello-world --image=gcr.io/google_containers/echoserver:1.4 --port=8080
+  515  kubectl run hi-efrat --image=gcr.io/google_containers/echoserver:1.4 --port=8080
+  516  kubectl expose deployment hi-efrat --type NodePort
+  517  minikube service hi-efrat --url
+  518  kubectl get pod
+  519  kubectl get nodes
+  520  kubectl describe pods
+  521  kubectl get pod -o wide
+  522  mkdir ~/Documents/kubernetes
+  523  touch ~/Documents/kubernetes/commands.txt
+  524  history 30 > ~/Documents/kubernetes/commands.txt

@@ -1,0 +1,25 @@
+  540  touch rc-definition.yml
+  541  cat pod-defintion.yml > rc-definition.yml
+  542  vim rc-definition.yml 
+  543  vim rc-definition.yml 
+  544  touch replicaset-definition.yml 
+  545  vim replicaset-definition.yml 
+  546  kubectl create -f replicaset-definition.yml 
+  547  vim replicaset-definition.yml 
+  548  kubectl create -f replicaset-definition.yml 
+  549  vim replicaset-definition.yml 
+  550  kubectl create -f replicaset-definition.yml 
+  551  kubectl get pod
+  552  kubectl scale
+  553  vim replicaset-definition.yml 
+  554  kubectl scale --replicas 8 app-rs
+  555  vim replicaset-definition.yml 
+  556  kubectl scale --replicas 8 replicaset app-rs 
+  557  kubectl get pod
+  558  kubectl delete pod app-rs-29zw4 
+  559  kubectl get pod
+  560  kubectl delete pod app-rs-5cvd5 app-rs-94szs app-rs-bnx5t app-rs-bx4ch
+  561  kubectl get pod
+  562  kubectl describe replicaset
+  563  touch replicaSet_commands.txt
+  564  history 30 > replicaSet_commands.txt 

@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: front
+  labels:
+    app: vuejs
+spec:
+  containers:
+    - name: front-c1
+      image: efrat19/vuejs

@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: app-rs
+  labels:
+    app: app
+    type: type
+spec:
+  template:
+    metadata:
+      name: vue-pod
+      labels:
+        app: vue-app
+        type: vue-frontend
+    spec: 
+      containers:
+        - name: vue-container
+          image: efrat19/vuejs
+  replicas: 5
+  selector: 
+    matchLabels:
+      type: vue-frontend
